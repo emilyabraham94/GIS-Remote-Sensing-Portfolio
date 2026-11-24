@@ -1,0 +1,8 @@
+,Water,Cultivation,Bare Agricultural Land,Natural Vegetation,Bare Land with Sparse Vegetation,Fallow Land,Built-Up
+Water,30,0,0,0,0,0,0
+Cultivation,0,30,0,0,0,0,0
+Bare Agricultural Land,0,0,30,0,0,0,0
+Natural Vegetation,0,0,0,30,0,0,0
+Bare Land with Sparse Vegetation,0,0,0,0,30,0,0
+Fallow Land,0,0,0,0,0,30,0
+Built-Up,0,0,0,0,0,0,30
