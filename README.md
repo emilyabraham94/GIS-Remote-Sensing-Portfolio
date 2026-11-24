@@ -1,10 +1,11 @@
+
 # GIS & Remote Sensing Portfolio
 
 ### Geospatial Analysis | Environmental Management | Remote Sensing | Spatial Decision Support
 
 Welcome to my GIS and Remote Sensing portfolio.
 
-This repository showcases my practical projects involving geospatial analysis, environmental assessment, satellite imagery, spatial suitability modelling and GIS-based decision support.
+This repository showcases my practical projects involving geospatial analysis, environmental assessment, satellite imagery, spatial suitability modelling, machine learning classification and GIS-based decision support.
 
 The portfolio will be continuously updated as I complete new projects and develop additional technical skills.
 
@@ -33,7 +34,11 @@ A GIS-based project exploring the prioritisation of coastal restoration areas in
 
 A spatial planning project investigating the suitability of different locations for potential urban development.
 
-**Focus:** Spatial analysis and suitability mapping for land-use planning.
+**Key techniques:**
+- Spatial buffer analysis
+- Environmental constraint mapping
+- Spatial suitability assessment
+- Land-use planning
 
 **Software:** QGIS
 
@@ -41,20 +46,37 @@ A spatial planning project investigating the suitability of different locations 
 
 **Approach:** Supervised Machine Learning Classification
 
-A Landsat 8-based Land Use and Land Cover (LULC) classification project using the Support Vector Machine (SVM) algorithm.
+A Landsat 8 (2023) Land Use and Land Cover (LULC) classification project using the Support Vector Machine (SVM) algorithm.
 
 **Key techniques:**
 - Multispectral satellite imagery analysis
-- Supervised classification
 - Training sample preparation
-- Support Vector Machine (SVM)
+- Support Vector Machine (SVM) classification
+- Stratified validation sampling
+- Confusion matrix and accuracy assessment
+- Training-validation spatial separation analysis
+- Land-cover area statistics
+- Python-assisted geospatial analysis
 - Thematic land-cover mapping
 
-**Software:** QGIS 4.2.3, Semi-Automatic Classification Plugin (SCP) 9.0.5
+**Software:** QGIS 4.2.3, Semi-Automatic Classification Plugin (SCP) 9.0.5, Python
 
 **Classification categories:** Water, Cultivation, Bare Agricultural Land, Natural Vegetation, Bare Land with Sparse Vegetation, Fallow Land and Built-Up.
 
-**Note:** Independent classification accuracy assessment is pending.
+**Key results:**
+- 181 training polygons
+- 210 stratified validation points
+- Seven land-cover classes
+- Total mapped area: 778,467.22 hectares
+- Observed sample Overall Accuracy: 100%
+- Cohen's Kappa: 1.00
+- No validation points within 30 metres of training polygons
+
+**Validation note:** The perfect observed agreement represents the assessed sample and does not establish an error-free map. Reference imagery limitations are documented in the project folder.
+
+**Project status:** Classification, mapping, accuracy assessment and area analysis completed.
+
+[View detailed LULC project](projects/03-LULC-SVM-Classification)
 
 ---
 
@@ -67,11 +89,17 @@ A Landsat 8-based Land Use and Land Cover (LULC) classification project using th
 - Multi-Criteria Decision Analysis (MCDA)
 - Analytical Hierarchy Process (AHP)
 - Supervised Satellite Image Classification
+- Support Vector Machine (SVM)
+- Stratified Validation Sampling
+- Classification Accuracy Assessment
+- Confusion Matrix Analysis
+- Raster Area Statistics
+- Python-Assisted Geospatial Analysis
 - Cartographic Visualisation
 
 ## Software & Tools
 
-QGIS | Semi-Automatic Classification Plugin (SCP) | GIS Raster and Vector Processing
+QGIS | Semi-Automatic Classification Plugin (SCP) | Python | PyQGIS | GDAL | NumPy | pandas
 
 ## Portfolio Development
 
@@ -79,4 +107,4 @@ This is an evolving portfolio. Future projects will expand into additional appli
 
 ---
 
-*Project maps, detailed methodologies, data-source information and limitations will be documented in their respective project folders.*
+*Project maps, detailed methodologies, statistical results, data-source information and limitations are documented in their respective project folders.*
