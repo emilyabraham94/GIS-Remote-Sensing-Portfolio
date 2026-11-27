@@ -1,11 +1,10 @@
-
 # GIS & Remote Sensing Portfolio
 
 ### Geospatial Analysis | Environmental Management | Remote Sensing | Spatial Decision Support
 
 Welcome to my GIS and Remote Sensing portfolio.
 
-This repository showcases my practical projects involving geospatial analysis, environmental assessment, satellite imagery, spatial suitability modelling, machine learning classification and GIS-based decision support.
+This repository showcases my practical projects involving geospatial analysis, environmental assessment, satellite imagery, spatial suitability modelling, machine learning classification, hydrological analysis and GIS-based decision support.
 
 The portfolio will be continuously updated as I complete new projects and develop additional technical skills.
 
@@ -20,6 +19,7 @@ The portfolio will be continuously updated as I complete new projects and develo
 A GIS-based project exploring the prioritisation of coastal restoration areas in the Värmdö archipelago, Sweden.
 
 **Key techniques:**
+
 - Raster processing and spatial analysis
 - Bathymetry and ecological indicator assessment
 - Multi-Criteria Decision Analysis (MCDA)
@@ -28,6 +28,8 @@ A GIS-based project exploring the prioritisation of coastal restoration areas in
 
 **Software:** QGIS
 
+[View detailed Coastal Restoration project](projects/01-Varmdo-Coastal-Restoration)
+
 ### 02. New Town Site Suitability Analysis
 
 **Approach:** GIS-Based Spatial Suitability Modelling
@@ -35,12 +37,15 @@ A GIS-based project exploring the prioritisation of coastal restoration areas in
 A spatial planning project investigating the suitability of different locations for potential urban development.
 
 **Key techniques:**
+
 - Spatial buffer analysis
 - Environmental constraint mapping
 - Spatial suitability assessment
 - Land-use planning
 
 **Software:** QGIS
+
+[View detailed Site Suitability project](projects/02-New-Town-Site-Suitability)
 
 ### 03. Land Use and Land Cover Classification — Karnataka, India
 
@@ -49,6 +54,7 @@ A spatial planning project investigating the suitability of different locations 
 A Landsat 8 (2023) Land Use and Land Cover (LULC) classification project using the Support Vector Machine (SVM) algorithm.
 
 **Key techniques:**
+
 - Multispectral satellite imagery analysis
 - Training sample preparation
 - Support Vector Machine (SVM) classification
@@ -64,6 +70,7 @@ A Landsat 8 (2023) Land Use and Land Cover (LULC) classification project using t
 **Classification categories:** Water, Cultivation, Bare Agricultural Land, Natural Vegetation, Bare Land with Sparse Vegetation, Fallow Land and Built-Up.
 
 **Key results:**
+
 - 181 training polygons
 - 210 stratified validation points
 - Seven land-cover classes
@@ -78,28 +85,95 @@ A Landsat 8 (2023) Land Use and Land Cover (LULC) classification project using t
 
 [View detailed LULC project](projects/03-LULC-SVM-Classification)
 
+### 04. Watershed and Subwatershed Delineation — Karnataka, India
+
+**Approach:** DEM-Based Hydrological Analysis
+
+A GIS-based hydrological modelling project using a 30 m resolution SRTM Digital Elevation Model to delineate watershed boundaries, identify surface water flow pathways and extract drainage networks.
+
+**Key techniques:**
+
+- Digital Elevation Model (DEM) preprocessing
+- Sink filling and comparative DEM assessment
+- D8 flow direction analysis
+- Flow accumulation modelling
+- Watershed outlet point identification
+- Watershed and subwatershed delineation
+- Conditional raster analysis and overlap removal
+- Drainage network extraction
+- Raster thinning and raster-to-vector conversion
+- Catchment area calculation and internal consistency assessment
+- Hydrological mapping and cartographic visualisation
+
+**Software:** QGIS, GRASS GIS and GDAL
+
+**Key results:**
+
+- Total delineated watershed area: 3,805.16 km²
+- Six non-overlapping subwatershed zones
+- Six watershed outlet points
+- Spatial resolution: 30 m
+- Flow routing method: D8
+- Drainage extraction threshold: 100,000 cells
+- Equivalent contributing area threshold: 90 km²
+
+**Validation note:** The delineation is constrained by available DEM coverage. The extracted drainage network has not been independently validated against reference river data or field observations.
+
+**Project status:** Hydrological analysis, watershed delineation, drainage extraction, area calculation and mapping completed.
+
+[View detailed Watershed Analysis project](projects/04-Watershed-Analysis)
+
 ---
 
 ## Technical Skills Demonstrated
 
+### GIS and Spatial Analysis
+
 - Geographic Information Systems (GIS)
-- Remote Sensing
 - Raster and Vector Data Processing
+- Coordinate Reference System Management
+- Spatial Buffer and Overlay Analysis
 - Spatial Suitability Analysis
 - Multi-Criteria Decision Analysis (MCDA)
 - Analytical Hierarchy Process (AHP)
+- Raster Area Statistics
+- Cartographic Visualisation
+
+### Remote Sensing and Machine Learning
+
+- Multispectral Satellite Imagery Analysis
 - Supervised Satellite Image Classification
 - Support Vector Machine (SVM)
+- Training Sample Preparation
 - Stratified Validation Sampling
 - Classification Accuracy Assessment
 - Confusion Matrix Analysis
-- Raster Area Statistics
 - Python-Assisted Geospatial Analysis
-- Cartographic Visualisation
+
+### Hydrological and Terrain Analysis
+
+- Digital Elevation Model Processing
+- Terrain-Based Hydrological Modelling
+- Flow Direction and Flow Accumulation Analysis
+- Watershed and Subwatershed Delineation
+- Catchment Area Assessment
+- Drainage Network Extraction
+- Conditional Raster Analysis
+- Raster Thinning and Vectorisation
 
 ## Software & Tools
 
-QGIS | Semi-Automatic Classification Plugin (SCP) | Python | PyQGIS | GDAL | NumPy | pandas
+QGIS | GRASS GIS | Semi-Automatic Classification Plugin (SCP) | Python | PyQGIS | GDAL | NumPy | pandas
+
+## Research and Application Interests
+
+- Environmental Management
+- Coastal and Marine Ecosystem Restoration
+- Watershed and Water Resource Management
+- Land Use and Land Cover Assessment
+- Environmental Spatial Modelling
+- Sustainable Land-Use Planning
+- GIS-Based Environmental Decision Support
 
 ## Portfolio Development
 
